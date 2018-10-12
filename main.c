@@ -3,7 +3,7 @@
 #include <math.h>
 
 bool validatedata(int a, int b) {
-    if (a == 0 || b == 0) {
+    if (a <= 0 || b <= 0) {
         printf("Do dai 1 canh khong the bang 0\n");
         return false;
     } else {
